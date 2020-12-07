@@ -7,24 +7,10 @@
   <meta content="email=no" name="format-detection" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <link rel="stylesheet" type="text/css" href="../../assets//reset.css">
   <title>DEMO</title>
 </head>
 
 <body>
   <div id="app"></div>
 </body>
-<script>
-  var _hmt = _hmt || [];
-  (function () {
-    // 这里使用的是 eruda， vconsole也不错，根据个人习惯（两种都是拦截了请求资源，所以遇到一些奇葩的请求问题，不妨注释一下）
-    const domains = [] // 正式服域名配置
-    const hostname = window.location.hostname
-    if (domains.indexOf(hostname) === -1) {
-      var src = '//cdn.bootcss.com/eruda/1.2.4/eruda.min.js';
-      document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
-      document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
-    }
-  })();
-</script>
 </html>
