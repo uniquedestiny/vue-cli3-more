@@ -10,6 +10,7 @@
 export default {
   data () {
     return {
+      c_ah: 0, // 线图总高度接收
       drawConfig: [] // 奖项配置
     }
   },
