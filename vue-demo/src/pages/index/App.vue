@@ -4,13 +4,13 @@
     <section>
       <tigerDraw ref="tigerDraw" :img="img"></tigerDraw>
     </section>
-    <div class="btn" @click="startClick"><img src="@/assets/img/btn.png" alt="" /></div>
+    <div class="btn" @click="startClick"><img src="@/assets/img/tiger/btn.png" alt="" /></div>
   </div>
 </template>
 
 <script>
 import tigerDraw from '../../components/tiger/tiger'
-var img = require('../../assets/img/draw-card.png')
+var img = require('../../assets/img/tiger/draw-card.png')
 export default {
   data () {
     return {
@@ -32,7 +32,7 @@ export default {
 .wrap {
   width: 100%;
   height: 13.27rem;
-  background: url('../../assets/img/cj-bg.png') no-repeat, #6039e2;
+  background: url('../../assets/img/tiger/cj-bg.png') no-repeat, #6039e2;
   background-size: 100%;
   max-width: 750px;
   margin: 0 auto;
